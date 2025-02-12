@@ -1,16 +1,16 @@
-import { FC } from "react";
-import Button from "../../button";
-import Section from "../../section";
-import s from "./style.module.scss";
+import { FC } from 'react'
+import Button from '../../button'
+import Section from '../../section'
+import s from './style.module.scss'
 
 const Prices: FC = () => (
-	<div className={s.section} id="7">
+	<div className={s.section} id='7'>
 		<Section
 			children={
 				<>
 					<h1>Ціни</h1>
 					<div className={s.container}>
-						<div className={s.price}>
+						{/* <div className={s.price}>
 							<div className={s.price_top}>
 								<h3 className={s.title}>Students</h3>
 							</div>
@@ -29,7 +29,7 @@ const Prices: FC = () => (
 								<p className={s.priceText}>1 790 грн</p>
 								<p className={s.smallText}>Акційна ціна для моїх студентів</p>
 							</div>
-						</div>
+						</div> */}
 
 						<div className={s.price}>
 							<div className={s.price_top}>
@@ -46,10 +46,15 @@ const Prices: FC = () => (
 									завжди під рукою!
 								</p>
 							</div>
-							<p className={s.priceText}>2 490 грн</p>
-							<p className={s.smallText}>
+							<div className={s.prices_block}>
+								<p className={s.priceText_old}>2 490 грн</p>
+								<p className={s.priceText}>1 490 грн</p>
+							</div>
+
+							{/* <p className={s.smallText}>
 								Ціна для читачів мого блогу та всіх інших
-							</p>
+							</p> */}
+							<p className={s.smallText}>Акційна ціна діє до 16.02.2025!</p>
 						</div>
 					</div>
 
@@ -58,6 +63,6 @@ const Prices: FC = () => (
 			}
 		/>
 	</div>
-);
+)
 
-export default Prices;
+export default Prices
