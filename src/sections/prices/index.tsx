@@ -10,7 +10,7 @@ const Prices: FC = () => (
 				<>
 					<h1>Ціни</h1>
 					<div className={s.container}>
-						{/* <div className={s.price}>
+						<div className={s.price}>
 							<div className={s.price_top}>
 								<h3 className={s.title}>Students</h3>
 							</div>
@@ -29,7 +29,7 @@ const Prices: FC = () => (
 								<p className={s.priceText}>1 790 грн</p>
 								<p className={s.smallText}>Акційна ціна для моїх студентів</p>
 							</div>
-						</div> */}
+						</div>
 
 						<div className={s.price}>
 							<div className={s.price_top}>
@@ -47,14 +47,14 @@ const Prices: FC = () => (
 								</p>
 							</div>
 							<div className={s.prices_block}>
-								<p className={s.priceText_old}>2 490 грн</p>
-								<p className={s.priceText}>1 490 грн</p>
+								{/* <p className={s.priceText_old}>2 490 грн</p> */}
+								<p className={s.priceText}>2 490 грн</p>
 							</div>
 
-							{/* <p className={s.smallText}>
+							<p className={s.smallText}>
 								Ціна для читачів мого блогу та всіх інших
-							</p> */}
-							<p className={s.smallText}>Акційна ціна діє до 16.02.2025!</p>
+							</p>
+							{/* <p className={s.smallText}>Акційна ціна діє до 16.02.2025!</p> */}
 						</div>
 					</div>
 
