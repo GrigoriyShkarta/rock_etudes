@@ -12,6 +12,30 @@ const Prices: FC = () => (
 					<div className={s.container}>
 						<div className={s.price}>
 							<div className={s.price_top}>
+								<h3 className={s.title}>Marathoners</h3>
+							</div>
+							<div className={s.price_bottom}>
+								<p>
+									📖 Електронна версія збірки: доступна для читання на будь-яких
+									пристроях.
+								</p>
+								<p>🎵 MP3-файли: тренуйтеся де завгодно.</p>
+								<p>
+									📱 Доступ до Telegram-каналу: усі матеріали в одному місці,
+									завжди під рукою!
+								</p>
+							</div>
+							<div className={s.prices_block}>
+								<p className={s.priceText}>1 245 грн</p>
+								<p className={s.smallText}>
+									Акційна ціна для учасників марафону
+								</p>
+								<p className={s.smallText}>Акційна ціна діє до 18.04.2025!</p>
+							</div>
+						</div>
+
+						<div className={s.price}>
+							<div className={s.price_top}>
 								<h3 className={s.title}>Students</h3>
 							</div>
 							<div className={s.price_bottom}>
