@@ -1,4 +1,4 @@
-@use "../../assets/styles/_vars.scss" as *;
+@use '../../assets/styles/_vars.scss' as *;
 
 .section {
 	@include Section;
@@ -49,7 +49,17 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		gap: 2.5rem;
+		gap: 2rem;
+
+		.banner {
+			width: 80%;
+			height: 80%;
+
+			@media (max-width: 640px) {
+				width: 100%;
+				height: auto;
+			}
+		}
 
 		.text {
 			text-align: center;
