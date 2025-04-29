@@ -10,7 +10,7 @@ const Prices: FC = () => (
 				<>
 					<h1>Ціни</h1>
 					<div className={s.container}>
-						<div className={s.price}>
+						{/* <div className={s.price}>
 							<div className={s.price_top}>
 								<h3 className={s.title}>Marathoners</h3>
 							</div>
@@ -32,7 +32,7 @@ const Prices: FC = () => (
 								</p>
 								<p className={s.smallText}>Акційна ціна діє до 18.04.2025!</p>
 							</div>
-						</div>
+						</div> */}
 
 						<div className={s.price}>
 							<div className={s.price_top}>
